@@ -1,0 +1,19 @@
+{
+  "name": "js-vanilla-simple-slider",
+  "version": "1.0.0",
+  "description": "Vanilla JS Slider",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./prod"
+  },
+  "author": "Albin",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.23.4",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
