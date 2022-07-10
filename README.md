@@ -1,2 +1,2 @@
-# js-exercise.dev
-JS 
+# JS Work :)
+
