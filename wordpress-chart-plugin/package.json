@@ -1,0 +1,24 @@
+{
+  "name": "teachbeacon-chart",
+  "version": "1.0.0",
+  "description": "",
+  "default": "src/js/tb-chart.js",
+  "scripts": {
+    "start": "parcel assets/src/js/tb-chart.js --dist-dir assets/dist",
+    "build": "parcel build assets/src/js/tb-chart.js --dist-dir assets/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apexcharts": "^3.35.3",
+    "core-js": "^3.23.4",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
