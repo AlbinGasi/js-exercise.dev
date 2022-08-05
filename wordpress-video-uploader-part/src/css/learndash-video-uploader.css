@@ -1,0 +1,169 @@
+/*
+Add any plugin admin specific css here. If none is needed, please remove
+*/
+
+.upload-button-wrapper {
+    display: block;
+    margin: 0 0 10px 0;
+    text-align: right;
+}
+#learndash-video-uploader-modal {
+    display: none;
+}
+#learndash-video-uploader-modal.show-modal {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999999;
+    top: 0;
+    left: 0;
+}
+
+.modal-body-content-wrapper {
+    width: 80%;
+    max-width: 750px;
+    height: 1500px;
+    max-height: 550px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    padding: 25px 35px;
+    overflow: scroll;
+}
+.modal-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    width: 13px;
+    height: 10px;
+    background: #fff;
+    font-size: 22px;
+    padding: 8px;
+    line-height: 0.4;
+    text-align: center;
+    cursor: pointer;
+}
+.modal-tabs {
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+}
+.modal-tabs a.modal-item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 16px;
+    color: #fff;
+    background: #4f9dff;
+    margin-right: 5px;
+}
+.modal-tabs a.modal-item:active, 
+.modal-tabs a.modal-item:focus {
+    outline: none;
+}
+.modal-tabs a.modal-item.modal-item-active {
+    background: #1a66c5;
+}
+.modal-body-content {
+
+}
+.modal-body-content .modal-content {
+    display: none;
+}
+.modal-body-content .modal-content.modal-content-active {
+    display: block;
+}
+.modal-spinner {
+    text-align: center;
+    z-index: 11;
+    justify-content: normal;
+    align-items: center;
+    display: flex;
+}
+.modal-spinner p {
+    margin-left: 14px;
+}
+.modal-spinner svg {
+    height: 4rem;
+    width: 3rem;
+    fill: #3b3b3b;
+    animation: rotate 2s linear infinite;
+}
+.lvu-server-response-success {
+    display: block;
+    margin-top: 10px;
+}
+.lvu-object-url {
+    display: inline-block;
+    width: 100%;
+}
+.lvu-message-inside {
+    padding: 12px 0 12px 0;
+}
+/** FILE UPLOAD FORM */
+#upload-video-form {
+    display: flex;
+}
+  
+.file-upload-wrapper {
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    border: 1px solid #1a66c5;
+}
+.file-upload-wrapper:after {
+    content: attr(data-text);
+    pointer-events: none;
+    z-index: 20;
+    color: #616161;
+    background: #fff;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 42px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+}
+.file-upload-wrapper input[type="submit"] {
+    color: #fff;
+    z-index: 9999;
+    text-transform: uppercase;
+    background: #1a66c5;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    font-weight: 700;
+    margin-right: 0;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 0;
+}
+.file-upload-wrapper:hover:before {
+    background: #3d8c63;
+}
+.file-upload-wrapper input#videoFile {
+    opacity: 0;
+    z-index: 99;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: block;
+    inset: 0;
+    width: 82%;
+    height: 42px;
+}
+.lvu-library-files p {
+    margin-bottom: 10px;
+}
+.lvu-file-item {
+    display: inline-block;
+    text-decoration: none;
+}

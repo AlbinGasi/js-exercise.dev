@@ -1,0 +1,1 @@
+export const AJAX_URL = learndashVideoUploader.ajaxUrl;
